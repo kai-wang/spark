@@ -3,70 +3,76 @@
 ### SparkContext
 
 ### Create RDD
-#### parallelize
-#### textFile
-#### wholeTextFiles
-#### sequenceFile
+* parallelize
+
+```
+val xs = (1 to 100).toList
+val rdd = sc.parallelize(xs)
+```
+
+* textFile
+* wholeTextFiles
+* sequenceFile
 
 ### RDD Transformation
 
-#### map
-#### filter
-#### flatMap
-#### mapPartitions
-#### union
-#### intersection
-#### substract
-#### distinct
-#### cartesian
-#### zip
-#### zipWithIndex
-#### groupBy
-#### keyBy
-#### sortBy
-#### pipe
-#### randomSplit
-#### coalesce
-#### repartition
-#### sample
-#### keys
-#### values
-#### mapValues
-#### join
-#### leftOuterJoin
-#### rightOuterJoin
-#### fullOuterJoin
-#### sampleByKey
-#### subtractByKey
-#### groupByKey
-#### reduceByKey
+* map
+* filter
+* flatMap
+* mapPartitions
+* union
+* intersection
+* substract
+* distinct
+* cartesian
+* zip
+* zipWithIndex
+* groupBy
+* keyBy
+* sortBy
+* pipe
+* randomSplit
+* coalesce
+* repartition
+* sample
+* keys
+* values
+* mapValues
+* join
+* leftOuterJoin
+* rightOuterJoin
+* fullOuterJoin
+* sampleByKey
+* subtractByKey
+* groupByKey
+* reduceByKey
 
 ### Actions
-#### collect
-#### count
-#### countByValue
-#### first
-#### max
-#### min
-#### take
-#### takeOrdered
-#### top
-#### fold
-#### reduce
-#### countByKey
-#### lookup
-#### mean
-#### sum
-#### stdev
-#### variance
+* collect
+* count
+* countByValue
+* first
+* max
+* min
+* take
+* takeOrdered
+* top
+* fold
+* reduce
+* countByKey
+* lookup
+* mean
+* sum
+* stdev
+* variance
 
 ### Save, Persist & Cache
 
-#### saveAsTextFile
-#### saveAsObjectFile
-#### saveAsSequenceFile
-#### cache
-#### persist
+* saveAsTextFile
+* saveAsObjectFile
+* saveAsSequenceFile
+* cache
+* persist
 
 ### Spark Jobs
 
